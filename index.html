@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T&G Autorepair - Expert Car Services in Newark, NJ</title>
+    <meta name="description" content="T&G Autorepair: We buy cars for cash, perform expert repairs, and install premium window tint. Fast quotes, fair prices, quality work in Newark, NJ.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>T&G Autorepair</h2>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#sell-car" class="nav-link">Sell Your Car</a>
+                <a href="#book-service" class="nav-link">Book Service</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>T&G Autorepair</h1>
+                <h2>Expert Car Services in Newark, NJ</h2>
+                <p>We buy cars for cash, perform expert repairs, and install premium window tint. Fast quotes, fair prices, quality work you can trust.</p>
+                <div class="hero-buttons">
+                    <a href="#sell-car" class="btn btn-primary">Get Cash Quote</a>
+                    <a href="#book-service" class="btn btn-secondary">Book Service</a>
+                </div>
+                <div class="contact-info">
+                    <p><strong>Call Now:</strong> (973) 375-2147</p>
+                    <p><strong>Location:</strong> 556 Hawthorne Ave, Newark, NJ 07112</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>We Buy Cars</h3>
+                    <p>Get cash for your car today! We buy vehicles in any condition. Fast quotes, fair prices, immediate payment.</p>
+                    <ul>
+                        <li>Any make, model, or condition</li>
+                        <li>Free instant quotes</li>
+                        <li>Same-day pickup available</li>
+                        <li>Cash payment on the spot</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <h3>Expert Repairs</h3>
+                    <p>Professional automotive repair services from certified technicians. Quality parts, honest pricing, reliable service.</p>
+                    <ul>
+                        <li>Engine diagnostics & repair</li>
+                        <li>Brake service & replacement</li>
+                        <li>Transmission repair</li>
+                        <li>Electrical system repair</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <h3>Premium Window Tint</h3>
+                    <p>Professional window tinting with premium films. UV protection, heat reduction, enhanced privacy and style.</p>
+                    <ul>
+                        <li>High-quality tint films</li>
+                        <li>UV protection & heat reduction</li>
+                        <li>Professional installation</li>
+                        <li>Warranty included</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sell Your Car Section -->
+    <section id="sell-car" class="sell-car">
+        <div class="container">
+            <h2>Sell Your Car for Cash</h2>
+            <p>Get an instant quote for your vehicle. We make selling your car fast and easy!</p>
+            <form class="quote-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="year">Year</label>
+                        <input type="number" id="year" name="year" placeholder="2020" min="1990" max="2025" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="make">Make</label>
+                        <input type="text" id="make" name="make" placeholder="Toyota" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="model">Model</label>
+                        <input type="text" id="model" name="model" placeholder="Camry" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="mileage">Mileage</label>
+                        <input type="number" id="mileage" name="mileage" placeholder="50000" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="condition">Condition</label>
+                        <select id="condition" name="condition" required>
+                            <option value="">Select Condition</option>
+                            <option value="excellent">Excellent</option>
+                            <option value="good">Good</option>
+                            <option value="fair">Fair</option>
+                            <option value="poor">Poor</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="John Smith" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="(973) 555-0123" required>
+                </div>
+                <div class="form-group">
+                    <label for="comments">Additional Comments</label>
+                    <textarea id="comments" name="comments" placeholder="Tell us about your car's condition, any issues, etc."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Get My Quote</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Book Service Section -->
+    <section id="book-service" class="book-service">
+        <div class="container">
+            <h2>Book a Service</h2>
+            <p>Schedule your automotive service today. Choose from repairs, maintenance, or window tinting.</p>
+            <form class="booking-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="service-type">Service Type</label>
+                        <select id="service-type" name="service-type" required>
+                            <option value="">Select Service</option>
+                            <option value="repair">Auto Repair</option>
+                            <option value="maintenance">Maintenance</option>
+                            <option value="tinting">Window Tinting</option>
+                            <option value="inspection">Inspection</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="preferred-date">Preferred Date</label>
+                        <input type="date" id="preferred-date" name="preferred-date" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="customer-name">Your Name</label>
+                        <input type="text" id="customer-name" name="customer-name" placeholder="John Smith" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="customer-phone">Phone Number</label>
+                        <input type="tel" id="customer-phone" name="customer-phone" placeholder="(973) 555-0123" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="vehicle-info">Vehicle Information</label>
+                    <input type="text" id="vehicle-info" name="vehicle-info" placeholder="2020 Toyota Camry" required>
+                </div>
+                <div class="form-group">
+                    <label for="service-details">Service Details</label>
+                    <textarea id="service-details" name="service-details" placeholder="Describe the service needed or any issues with your vehicle"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Book Appointment</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact & Hours</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <div class="contact-item">
+                        <strong>Phone:</strong>
+                        <a href="tel:9733752147">(973) 375-2147</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Address:</strong>
+                        <p>556 Hawthorne Ave<br>Newark, NJ 07112</p>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Email:</strong>
+                        <a href="mailto:info@tgautorepair.com">info@tgautorepair.com</a>
+                    </div>
+                </div>
+                <div class="hours-info">
+                    <h3>Business Hours</h3>
+                    <div class="hours-list">
+                        <div class="hours-item">
+                            <span>Monday - Friday:</span>
+                            <span>8:00 AM - 6:00 PM</span>
+                        </div>
+                        <div class="hours-item">
+                            <span>Saturday:</span>
+                            <span>9:00 AM - 4:00 PM</span>
+                        </div>
+                        <div class="hours-item">
+                            <span>Sunday:</span>
+                            <span>Closed</span>
+                        </div>
+                    </div>
+                    <p><em>Emergency services available by appointment</em></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 T&G Autorepair. All rights reserved. | 556 Hawthorne Ave, Newark, NJ 07112 | (973) 375-2147</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
